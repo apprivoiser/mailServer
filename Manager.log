@@ -1,0 +1,71 @@
+5月 15, 2019 9:46:57 下午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:MailServer' did not find a matching property.
+5月 15, 2019 9:46:57 下午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:09-Manager' did not find a matching property.
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/8.5.20
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 2 2017 21:35:49 UTC
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         8.5.20.0
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             D:\JDK
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           9.0.4+11
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\MailServer\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\apache-tomcat-8.5.20
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\MailServer\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\apache-tomcat-8.5.20
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dwtp.deploy=F:\MailServer\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
+5月 15, 2019 9:46:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=GBK
+5月 15, 2019 9:46:57 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/JDK/bin/server;D:/JDK/bin;C:\Program Files (x86)\HP\NV\lib\shunra\vcat;F:\study\cuda\cuda\bin;F:\study\cuda\cuda\libnvvp;D:\JDK\bin;D:\JDK\jre\binC:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\ ;c:\quartus\quartus\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;F:\Git\Git\cmd;D:\codeblocks-16.01\CodeBlocks\MinGW\bin\;F:\PICT\;F:\HP LoadRunner 12.50 Community Edition\strawberry-perl\perl\bin;C:\Program Files (x86)\HP\NV\lib\thirdparty\safenet\LDK\7.0;C:\Program Files (x86)\HP\NV\lib\shunra\snv;F:\study\Anaconda\anaconda;D:\Microsoft VS Code\bin;F:\study\Anaconda\Graphviz2.38\bin;D:\Eclipse\eclipse;;.]
+5月 15, 2019 9:46:57 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-8080"]
+5月 15, 2019 9:46:58 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+5月 15, 2019 9:46:58 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-nio-8009"]
+5月 15, 2019 9:46:58 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+5月 15, 2019 9:46:58 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 3426 ms
+5月 15, 2019 9:46:59 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Catalina]
+5月 15, 2019 9:46:59 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.20
+5月 15, 2019 9:47:00 下午 org.apache.jasper.servlet.TldScanner scanJars
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+5月 15, 2019 9:47:01 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+警告: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,290] milliseconds.
+5月 15, 2019 9:47:02 下午 org.apache.jasper.servlet.TldScanner scanJars
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+5月 15, 2019 9:47:02 下午 org.apache.jasper.servlet.TldScanner scanJars
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+5月 15, 2019 9:47:02 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-8080"]
+5月 15, 2019 9:47:02 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-nio-8009"]
+5月 15, 2019 9:47:02 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 3951 ms
+/mg
+http://localhost:8080/mg/
+#####null
+#####login
+-DEBUG-2019/05/15 21:47:28,361-com.hnu.service.impl.UserServiceImpl.checkUserLoginService(UserServiceImpl.java:22)-22-yc@mail.com发起登录请求
+-DEBUG-2019/05/15 21:47:29,342-com.hnu.service.impl.UserServiceImpl.checkUserLoginService(UserServiceImpl.java:26)-26-yc@mail.com登录成功
+******邮件服务器已启动，等待客户端连接*****
